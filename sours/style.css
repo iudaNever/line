@@ -90,47 +90,70 @@ header .active{
         .b {
             font-family: air;
     color:white;
-    margin-right: 600px;
+    
     
         }
 
 
 
 .steam {
-    font-family: air;
-    color:white;
-    font-size: 30px;
-    position:absolute;
 
-    left: 300px;
-    bottom: 280px;
+        font-weight: 700;
+        color: white;
+        text-decoration: none;
+        padding: .8em 1em calc(.8em + 3px);
+        border-radius: 5px;
+        background: rgb(64,199,129);
+        box-shadow: 0 -3px rgb(53,167,110) inset;
+        transition: 0.2s;
+      } 
+      .steam:hover { background: rgb(53, 167, 110); }
+      .steam:active {
+        background: rgb(33,147,90);
+        box-shadow: 0 3px rgb(33,147,90) inset;
+      }
+    
 
-}
+
 .github {
-    font-family: air;
-    color:white;
-    font-size: 30px;
-    position:absolute;
+    font-weight: 700;
+        color: white;
+        text-decoration: none;
+        padding: .8em 1em calc(.8em + 3px);
+        border-radius: 5px;
+        background: rgb(64,199,129);
+        box-shadow: 0 -3px rgb(53,167,110) inset;
+        transition: 0.2s;
+      } 
+      .github:hover { background: rgb(53, 167, 110); }
+      .github:active {
+        background: rgb(33,147,90);
+        box-shadow: 0 3px rgb(33,147,90) inset;
+      }
+    
 
-    left: 450px;
-    bottom: 280px;
-}
+    
+
 .roblox {
-    font-family: air;
-    color:white;
-    font-size: 30px;
-    position:absolute;
+    font-weight: 700;
+        color: white;
+        text-decoration: none;
+        padding: .8em 1em calc(.8em + 3px);
+        border-radius: 5px;
+        background: rgb(64,199,129);
+        box-shadow: 0 -3px rgb(53,167,110) inset;
+        transition: 0.2s;
+      } 
+      .roblox:hover { background: rgb(53, 167, 110); }
+      .roblox:active {
+        background: rgb(33,147,90);
+        box-shadow: 0 3px rgb(33,147,90) inset;
+      }
+    
 
-    left: 300px;
-    bottom: 230px;
-}
-.avatar {
-    margin-right: 1200px;
-    position:relative;
-    bottom:90px;
     
-    
-}
+
+
 /* -----------------------------------AMINO SCRIPT-------------------------*/
 h2.block-title {
     font-size: 18px;
